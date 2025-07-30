@@ -11,3 +11,8 @@ To ethically route users to top AI tools like ChatGPT, GitHub Copilot, Blackbox 
 - Future Build: Flutter (Phase 2)
 - Backend: Flask (Replit)
 - Hosting: GitHub + Render/Vercel
+
+## Files in this Project
+- `main.py`: Main Flask app file
+- `tools.py`: Contains tool data
+- `templates/home.html`: Renders the UI
