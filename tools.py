@@ -496,5 +496,56 @@ tools_data = {
             "pricing": "Free"
         },
     ], 
+    "Utility & Conversion Tools": [
+        {
+            "name": "PDFgear",
+            "description": "All-in-one PDF editing, converting, compressing, and eSigning",
+            "link": "https://pdfgear.com",
+            "pricing": "Free"
+        },
+        {
+            "name": "TLDR This",
+            "description": "Summarizes long articles, documents, or webpages into short, readable summaries",
+            "link": "https://tldrthis.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Cleanvoice AI",
+            "description": "Removes filler words, silences, and stuttering from podcast audio",
+            "link": "https://cleanvoice.ai",
+            "pricing": "Paid"
+        },
+        {
+            "name": "Unscreen",
+            "description": "Remove video background instantly, no greenscreen needed",
+            "link": "https://unscreen.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Otter.ai",
+            "description": "AI-powered meeting transcriptions with real-time collaboration features",
+            "link": "https://otter.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "TinyWow",
+            "description": "100+ browser tools (PDF, video, audio, converters, image, etc.)",
+            "link": "https://tinywow.com",
+            "pricing": "Free"
+        },
+        {
+            "name": "Grammarly AI",
+            "description": "Spelling, grammar, and clarity checker with AI writing suggestions",
+            "link": "https://grammarly.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Glasp",
+            "description": "Save highlights from articles + auto summary and insights",
+            "link": "https://glasp.co",
+            "pricing": "Free"
+        },
+    ],
+    
     
 }
