@@ -546,6 +546,43 @@ tools_data = {
             "pricing": "Free"
         },
     ],
-    
+    "Web, SEO & Analytics AI": [
+        {
+            "name": "NeuronWriter",
+            "description": "AI-based SEO tool that helps optimize content using NLP and SERP analysis",
+            "link": "https://neuronwriter.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Outranking",
+            "description": "End-to-end SEO platform with AI for blog writing, keyword research, and audits",
+            "link": "https://outranking.io",
+            "pricing": "Paid"
+        },
+        {
+            "name": "Surfer SEO",
+            "description": "Real-time content score + SEO audit tool powered by AI",
+            "link": "https://surferseo.com",
+            "pricing": "Paid"
+        },
+        {
+            "name": "SEO.ai",
+            "description": "Generate optimized content + on-page insights using AI",
+            "link": "https://seo.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Ubersuggest AI",
+            "description": "Popular tool for keyword ideas, domain insights, and SEO audits (AI added features)",
+            "link": "https://neilpatel.com/ubersuggest",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "10Web AI",
+            "description": "AI-powered WordPress builder with SEO optimization suggestions",
+            "link": "https://10web.io",
+            "pricing": "Freemium"
+        },
+    ],
     
 }
