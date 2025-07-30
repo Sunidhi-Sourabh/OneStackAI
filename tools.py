@@ -1,7 +1,5 @@
 # tools.py
 
-# tools.py
-
 tools_data = {
     "Chatbots & Conversational AI": [
         {
