@@ -152,5 +152,69 @@ tools_data = {
         # More tools...
     ],
     # More categories...
-            
+    "Image Generation & Editing AI": [
+        {
+            "name": "DALL·E 3 ",
+            "description": "Text-to-image generator within ChatGPT",
+            "link": "https://chat.openai.com",
+            "pricing": "Paid"
+        },
+        {
+            "name": "Leonardo AI",
+            "description": "Beautiful art/game style generations + templates",
+            "link": "https://leonardo.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Bing Image Creator ",
+            "description": "DALL·E-based free tool by Microsoft",
+            "link": "https://bing.com/images/create",
+            "pricing": "Free"
+        },
+        {
+            "name": "Craiyon",
+            "description": "Quirky, cartoonish image generator",
+            "link": "https://craiyon.com",
+            "pricing": "Free"
+        },
+        {
+            "name": "Artbreeder",
+            "description": "Morph and remix faces, portraits, landscapes",
+            "link": "https://artbreeder.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "PhotoRoom AI",
+            "description": "Remove BGs, add pro templates (for product shots, etc.)",
+            "link": "https://photoroom.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Erase.bg",
+            "description": "Background removal tool with clean outputs",
+            "link": "https://erase.bg",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Runway ML ",
+            "description": "Pro-level suite for image editing, inpainting, & expansion",
+            "link": "https://runwayml.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Remove.bg",
+            "description": "One-click background eraser",
+            "link": "https://remove.bg",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Deep Dream Generator",
+            "description": "Surreal, trippy images using neural networks",
+            "link": "https://deepdreamgenerator.com",
+            "pricing": "Free"
+        },
+        # More tools...
+    ],
+    # More categories...
+    
 }
