@@ -216,5 +216,241 @@ tools_data = {
         # More tools...
     ],
     # More categories...
+    "Audio & Voice AI Tools" :[ 
+        {
+            "name": "ElevenLabs",
+            "description": "Most realistic voice cloning + text-to-speech",
+            "link": "https://elevenlabs.io",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Voicemod AI Voices",
+            "description": "Real-time voice changer with AI filters",
+            "link": "https://voicemod.net",
+            "pricing": "Free"
+        },
+        {
+            "name": "MusicGen by Meta",
+            "description": "Generate music tracks from text prompts",
+            "link": "https://huggingface.co",
+            "pricing": "Free"
+        },
+        {
+            "name": "LMNT",
+            "description": "Create sound effects for games and videos",
+            "link": "https://lmnt.com",
+            "pricing": "Free"
+        },
+        {
+            "name": "PlayHT",
+            "description": "Ultra-realistic text-to-speech with emotion",
+            "link": "https://play.ht",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Voice.ai",
+            "description": "Voice cloning + real-time changer",
+            "link": "https://voice.ai",
+            "pricing": "Free"
+        },
+        {
+            "name": "Uberduck",
+            "description": "Meme voices + AI raps/text-to-rap generator",
+            "link": "https://uberduck.ai",
+            "pricing": "Free"
+        },
+        {
+            "name": "Beatoven.ai",
+            "description": "Background music generator for creators",
+            "link": "https://beatoven.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "LALAL.AI",
+            "description": "Isolate vocals/instruments from any audio",
+            "link": "https://lalal.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Cleanvoice AI",
+            "description": 'Removes filler words ("umm", "ahh") from podcasts automatically',
+            "link": "https://cleanvoice.ai",
+            "pricing": "Freemium"
+        },
+    ],
+    "Video Creation & Editing AI": [
+        {
+            "name": "Pictory",
+            "description": "Turn scripts or blog posts into engaging videos automatically",
+            "link": "https://pictory.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Runway ML",
+            "description": "Powerful Gen-AI video tools (inpainting, green screen, motion brush)",
+            "link": "https://runwayml.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Synthesia",
+            "description": "Create AI avatars that speak your script in videos",
+            "link": "https://synthesia.io",
+            "pricing": "Paid"
+        },
+        {
+            "name": "Lumen5",
+            "description": "Instantly convert blog posts to videos with branded templates",
+            "link": "https://lumen5.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Veed.io",
+            "description": "Online video editor with subtitles, effects, text-to-speech, etc.",
+            "link": "https://veed.io",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Wisecut",
+            "description": "Auto-cut silences, add background music, subtitles",
+            "link": "https://wisecut.video",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Kapwing",
+            "description": "Collaborative video editing with AI features like text-to-video",
+            "link": "https://kapwing.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "HeyGen (formerly Movio)",
+            "description": "AI avatars speak your script with emotion & style",
+            "link": "https://heygen.com",
+            "pricing": "Paid"
+        },
+        {
+            "name": "DeepBrain",
+            "description": "Create AI presenter-led videos in seconds",
+            "link": "https://deepbrain.io",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Fliki",
+            "description": "Convert blog/article into video using voice + visuals",
+            "link": "https://fliki.ai",
+            "pricing": "Freemium"
+        },
+    ],
+    "Productivity / Personal Assistants": [
+        {
+            "name": "Notion AI",
+            "description": "Powerful AI embedded in Notion for writing, organizing, planning",
+            "link": "https://notion.so",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Motion",
+            "description": "AI calendar that auto-plans tasks and meetings",
+            "link": "https://usemotion.com",
+            "pricing": "Paid"
+        },
+        {
+            "name": "Mem.ai",
+            "description": "AI notes + knowledge base that remembers everything",
+            "link": "https://mem.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Reclaim.ai",
+            "description": "Smart calendar that balances meetings, habits, and tasks",
+            "link": "https://reclaim.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Trevor AI",
+            "description": "Syncs with your to-do list & calendar for optimal scheduling",
+            "link": "https://trevorai.com",
+            "pricing": "Free"
+        },
+        {
+            "name": "ClickUp AI",
+            "description": "AI inside ClickUp for docs, task writing, and summaries",
+            "link": "https://clickup.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "SaneBox",
+            "description": "AI that filters out unimportant emails from your inbox",
+            "link": "https://sanebox.com",
+            "pricing": "Paid"
+        },
+        {
+            "name": "Todoist AI",
+            "description": "Smart suggestions & priorities using AI inside Todoist",
+            "link": "https://todoist.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Magical",
+            "description": "Text expander + automation for productivity",
+            "link": "https://magical.so",
+            "pricing": "Free"
+        },
+        {
+            "name": "Fellow.app AI",
+            "description": "AI-powered meeting notes and action items",
+            "link": "https://fellow.app",
+            "pricing": "Freemium"
+        },
+    ],
+    "Developer & Coding Tools": [
+        {
+            "name": "GitHub Copilot",
+            "description": "AI pair programmer for VS Code, JetBrains, Neovim",
+            "link": "https://github.com/copilot",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Blackbox AI",
+            "description": "Code autocomplete + search for devs, GitHub integration",
+            "link": "https://useblackbox.io",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Codeium",
+            "description": "Fast AI code assistant for 70+ languages, IDE plugins",
+            "link": "https://codeium.com",
+            "pricing": "Free"
+        },
+        {
+            "name": "Cursor.sh",
+            "description": "AI-first code editor powered by GPT",
+            "link": "https://cursor.sh",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "AskCodi",
+            "description": "Natural language to code + full-stack features",
+            "link": "https://askcodi.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Replit Ghostwriter",
+            "description": "AI pair programmer built into Replit",
+            "link": "https://replit.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Mutable AI",
+            "description": "Auto refactor, doc-gen & code chat",
+            "link": "https://mutable.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "CodeWhisperer",
+            "description": "Amazon’s AI code tool – supports Python, Java, JS, etc.",
+            "link": "https://aws.amazon.com/codewhisperer",
+            "pricing": "Free"
+        },
+    ], 
     
 }
