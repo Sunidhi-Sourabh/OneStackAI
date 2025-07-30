@@ -452,5 +452,49 @@ tools_data = {
             "pricing": "Free"
         },
     ], 
+    "Multimodal AI": [
+        {
+            "name": "ChatGPT-4o",
+            "description": "OpenAI’s flagship multimodal model supporting text, image, audio",
+            "link": "https://chat.openai.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Gemini (Google)",
+            "description": "Google’s AI with multimodal input (text, image, PDF, etc.)",
+            "link": "https://gemini.google.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Claude 3",
+            "description": "Anthropic’s AI (v3.5 has vision, large memory, doc analysis)",
+            "link": "https://claude.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Perplexity AI",
+            "description": "Multimodal AI for real-time research & chat",
+            "link": "https://perplexity.ai",
+            "pricing": "Free"
+        },
+        {
+            "name": "HuggingChat",
+            "description": "Open-source chat assistant with image input support",
+            "link": "https://huggingface.co/chat",
+            "pricing": "Free"
+        },
+        {
+            "name": "Pi.ai (Inflection)",
+            "description": "Voice-first friendly assistant with memory + emotional tone",
+            "link": "https://pi.ai",
+            "pricing": "Free"
+        },
+        {
+            "name": "Phind",
+            "description": "Multimodal dev search assistant (code, web, docs, etc.)",
+            "link": "https://phind.com",
+            "pricing": "Free"
+        },
+    ], 
     
 }
