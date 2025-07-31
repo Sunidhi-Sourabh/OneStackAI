@@ -722,5 +722,75 @@ tools_data = {
             "pricing": "Paid"
         },
     ],
-    
+    "Fashion & Shopping AI": [
+        {
+            "name": "Fashwell",
+            "description": "AI visual search for fashion – detects clothes from images",
+            "link": "https://fashwell.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Vue.ai",
+            "description": "AI for fashion styling, product tagging, and personalized shopping",
+            "link": "https://vue.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Lalaland.ai",
+            "description": "AI-generated fashion models and virtual try-ons",
+            "link": "https://lalaland.ai",
+            "pricing": "Paid"
+        },
+        {
+            "name": "AI Stylist by Lykdat",
+            "description": "AI personal fashion stylist that recommends outfits from photos",
+            "link": "https://lykdat.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "ShopLook",
+            "description": "Outfit planning tool with community-powered moodboards & AI styling",
+            "link": "https://shoplook.io",
+            "pricing": "Free"
+        },
+    ],
+    "Career & Resume AI": [
+        {
+            "name": "Kickresume",
+            "description": "AI-powered resume builder with templates and career tips",
+            "link": "https://kickresume.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Rezi",
+            "description": "ATS-friendly resume builder using AI to optimize for job descriptions",
+            "link": "https://rezi.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Teal Resume Builder",
+            "description": "Smart resume and job tracking suite powered by AI",
+            "link": "https://tealhq.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "LazyApply AI Cover Letter Generator",
+            "description": "Auto-generates personalized cover letters",
+            "link": "https://lazyapply.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "LinkedIn Optimization by Resume Worded",
+            "description": "Optimize LinkedIn profiles for recruiters",
+            "link": "https://resumeworded.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Jobscan",
+            "description": "Analyzes your resume vs. job description using AI to improve matching",
+            "link": "https://jobscan.co",
+            "pricing": "Freemium"
+        },
+    ],
+    #More categories....
 }
