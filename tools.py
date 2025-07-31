@@ -672,5 +672,55 @@ tools_data = {
             "pricing": "Free"
         },
     ],
+    "Marketing & Branding": [
+        {
+            "name": "Ocoya",
+            "description": "All-in-one AI social media scheduler + writer + designer",
+            "link": "https://ocoya.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Predis.ai",
+            "description": "AI social media post generator with brand consistency tools",
+            "link": "https://predis.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Copy.ai",
+            "description": "AI copywriting assistant for blogs, ads, and product descriptions",
+            "link": "https://copy.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Jasper.ai",
+            "description": "Advanced AI writer and content marketer for brands and agencies",
+            "link": "https://jasper.ai",
+            "pricing": "Paid"
+        },
+        {
+            "name": "GetGenie",
+            "description": "WordPress AI SEO and blog writer plugin",
+            "link": "https://getgenie.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Writesonic",
+            "description": "Copywriting + image generation AI for marketing teams",
+            "link": "https://writesonic.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Simplified",
+            "description": "Design + video + writing AI suite for social media and branding",
+            "link": "https://simplified.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Brandmark.io",
+            "description": "AI brand identity and logo maker with font and color suggestions",
+            "link": "https://brandmark.io",
+            "pricing": "Paid"
+        },
+    ],
     
 }
