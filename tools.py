@@ -584,5 +584,93 @@ tools_data = {
             "pricing": "Freemium"
         },
     ],
+    "AI Agents & Automation Bots": [
+        {
+            "name": "AgentGPT",
+            "description": "Auto-agent platform that allows users to configure and run goal-based AI agents",
+            "link": "https://agentgpt.reworkd.ai",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "AutoGPT",
+            "description": "Open-source experimental project for autonomous task execution via GPT",
+            "link": "https://github.com/Torantulino/Auto-GPT",
+            "pricing": "Free"
+        },
+        {
+            "name": "Taskade AI Agents",
+            "description": "Multi-agent workspaces to auto-plan tasks, projects, docs",
+            "link": "https://taskade.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "SWE-agent (OpenDevin)",
+            "description": "Dev-focused AI agents that build, debug and code (OSS)",
+            "link": "https://github.com/OpenDevin",
+            "pricing": "Free"
+        },
+        {
+            "name": "CrewAI",
+            "description": "Agent orchestration framework to build multi-role agents",
+            "link": "https://crewai.io",
+            "pricing": "Free"
+        },
+        {
+            "name": "HyperWrite Agent",
+            "description": "AI that acts on the web like a smart intern",
+            "link": "https://hyperwriteai.com",
+            "pricing": "Freemium"
+        },
+    ],
+    "Learning & Education AI": [
+        {
+            "name": "Khanmigo by Khan Academy",
+            "description": "GPT-powered tutor integrated into Khan Academy content",
+            "link": "https://khanacademy.org",
+            "pricing": "Free"
+        },
+        {
+            "name": "SciSpace",
+            "description": "Explains scientific papers in plain English with AI help",
+            "link": "https://scispace.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "QuillBot",
+            "description": "Paraphraser, grammar checker & summarizer AI",
+            "link": "https://quillbot.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Consensus",
+            "description": "AI search engine that gives research-backed answers",
+            "link": "https://consensus.app",
+            "pricing": "Free"
+        },
+        {
+            "name": "Knowji",
+            "description": "Vocabulary learning app using spaced repetition & AI",
+            "link": "https://knowji.com",
+            "pricing": "Paid"
+        },
+        {
+            "name": "Ello",
+            "description": "AI-powered reading coach for kids with real-time feedback",
+            "link": "https://ello.com",
+            "pricing": "Free"
+        },
+        {
+            "name": "Curipod",
+            "description": "Creates interactive lesson slides using AI for teachers",
+            "link": "https://curipod.com",
+            "pricing": "Freemium"
+        },
+        {
+            "name": "Explainpaper",
+            "description": "Drop in a paper, get AI explanation of difficult sections",
+            "link": "https://explainpaper.com",
+            "pricing": "Free"
+        },
+    ],
     
 }
