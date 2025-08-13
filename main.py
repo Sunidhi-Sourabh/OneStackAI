@@ -11,7 +11,7 @@ from tools import tools_data  # ✅ Ensure tools.py has this dictionary
 # ⚙️ App Configuration
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///instance/data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 
 db.init_app(app)
 migrate = Migrate(app, db)
