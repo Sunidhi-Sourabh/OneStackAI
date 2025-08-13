@@ -71,7 +71,6 @@ def logout():
 
 # 🏠 Home Route with Search & Filters
 @app.route('/')
-@login_required
 def home():
     query = request.args.get('search', '').lower()
     category_filter = request.args.get('category', '')
@@ -100,13 +99,11 @@ def home():
 
 # 👤 Dashboard
 @app.route('/dashboard')
-@login_required
 def dashboard():
     tools = Tool.query.all()
     return render_template('dashboard.html', tools=tools)
 
 @app.route('/favorites')
-@login_required
 def favorites():
     user_favorites = Favorite.query.filter_by(user_id=current_user.id).all()
     tools = [Tool.query.get(f.tool_id) for f in user_favorites]
