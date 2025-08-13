@@ -71,6 +71,7 @@ def logout():
 
 # 🏠 Home Route with Search & Filters
 @app.route('/')
+@login_required
 def home():
     query = request.args.get('search', '').lower()
     category_filter = request.args.get('category', '')
