@@ -123,5 +123,5 @@ def info():
     return render_template('info.html')
 
 # 🚀 Run the App
-if __name__ == '__main__'
+if __name__ == '__main__':
     app.run(debug=True)
