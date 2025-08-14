@@ -11,7 +11,7 @@ from tools import tools_data
 # ⚙️ App Configuration
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'  # set from ENV in production
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL').replace("postgres://", "postgresql://", 1)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
