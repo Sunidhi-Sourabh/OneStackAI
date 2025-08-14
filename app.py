@@ -10,7 +10,7 @@ from tools import tools_data
 # ⚙️ App Configuration
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'  # set from ENV in production
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
