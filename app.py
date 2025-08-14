@@ -10,8 +10,15 @@ from tools import tools_data
 
 # ⚙️ App Configuration
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your_secret_key'  # set from ENV in production
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL').replace("postgres://", "postgresql://", 1)
+app.config['SECRET_KEY'] = 'your_secret_key'
+# Detect DATABASE_URL from environment, else fallback to SQLite
+db_url = os.environ.get('DATABASE_URL')
+if db_url:
+    if db_url.startswith("postgres://"):
+        db_url = db_url.replace("postgres://", "postgresql://", 1)
+    app.config['SQLALCHEMY_DATABASE_URI'] = db_url
+else:
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
