@@ -11,15 +11,8 @@ from tools import tools_data
 # ⚙️ App Configuration
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
-
 # Detect DATABASE_URL from environment, else fallback to SQLite
-db_url = os.environ.get('DATABASE_URL', None)
-
-if db_url:
-    # Fix old Heroku-style postgres:// to postgresql://
-    if db_url.startswith("postgres://"):
-        db_url = db_url.replace("postgres://", "postgresql://", 1)
-    app.config['SQLALCHEMY_DATABASE_URI'] = db_url
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://onestackai_db_user:aKPX3V6qW2Rt73pKY87aHhGkLIPHcyBT@dpg-d2epoa3ipnbc73a9hk50-a.oregon-postgres.render.com/onestackai_db'
 else:
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 
@@ -27,7 +20,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
 migrate = Migrate(app, db)
-
 
 # 🔐 Login Manager Setup
 login_manager = LoginManager()
