@@ -16,9 +16,14 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
 
 # Detect DATABASE_URL from environment, else fallback to SQLite
-db_uri = os.getenv('DATABASE_URL', 'sqlite:///data.db')
-app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
-
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///data.db')
+# 🛠️ Add these engine options to prevent pool exhaustion
+app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
+    'pool_size': 10,          # number of connections to keep open
+    'max_overflow': 20,       # extra connections allowed temporarily
+    'pool_timeout': 30,       # wait time before throwing error
+    'pool_recycle': 1800      # recycle connections every 30 mins
+}
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
