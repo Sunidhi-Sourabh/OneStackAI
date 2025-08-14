@@ -1,33 +1,33 @@
     # 📦 Imports — Sorted & Cleaned
-    from flask import Flask, render_template, request, redirect, url_for, jsonify, session
-    from flask_sqlalchemy import SQLAlchemy
-    from flask_migrate import Migrate
-    from flask_login import LoginManager, login_user, logout_user, login_required
-    from flask_login import current_user
-    from werkzeug.security import generate_password_hash, check_password_hash
-    from models import db, User, Tool, Favorite
-    from tools import tools_data  # ✅ Ensure tools.py has this dictionary
+from flask import Flask, render_template, request, redirect, url_for, jsonify, session
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+from flask_login import LoginManager, login_user, logout_user, login_required
+from flask_login import current_user
+from werkzeug.security import generate_password_hash, check_password_hash
+from models import db, User, Tool, Favorite
+from tools import tools_data  # ✅ Ensure tools.py has this dictionary
 
     # ⚙️ App Configuration
-    app = Flask(__name__)
-    app.config['SECRET_KEY'] = 'your_secret_key'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'your_secret_key'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 
-    db.init_app(app)
-    migrate = Migrate(app, db)
+db.init_app(app)
+migrate = Migrate(app, db)
 
     # 🔐 Login Manager Setup
-    login_manager = LoginManager()
-    login_manager.init_app(app)
-    login_manager.login_view = 'login'
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'login'
 
-    @login_manager.user_loader
-    def load_user(user_id):
-        return User.query.get(int(user_id))
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
 
     # 🧱 Create DB Tables
-    with app.app_context():
-        db.create_all()
+with app.app_context():
+    db.create_all()
 
     # 🔐 Login & Register Routes
     @app.route('/login', methods=['GET', 'POST'])
