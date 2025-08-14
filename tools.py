@@ -1,7 +1,7 @@
 # tools.py
 
 tools_data = {
-    "Chatbots & Conversational AI": [
+    "🤖Chatbots & Conversational AI": [
         {
             "name": "ChatGPT",
             "description": "The most advanced AI chatbot by OpenAI",
@@ -76,7 +76,7 @@ tools_data = {
         },
         # More tools...
     ],
-    "Text Generation & Writing Tools": [
+    "📝Text Generation & Writing Tools": [
         {
             "name": "QuillBot",
             "description": "AI-powered paraphraser and grammar corrector",
@@ -152,7 +152,7 @@ tools_data = {
         # More tools...
     ],
     # More categories...
-    "Image Generation & Editing AI": [
+    "🎨Image Generation & Editing AI": [
         {
             "name": "DALL·E 3 ",
             "description": "Text-to-image generator within ChatGPT",
@@ -216,7 +216,7 @@ tools_data = {
         # More tools...
     ],
     # More categories...
-    "Audio & Voice AI Tools" :[ 
+    "🎙️Audio & Voice AI Tools" :[ 
         {
             "name": "ElevenLabs",
             "description": "Most realistic voice cloning + text-to-speech",
@@ -278,7 +278,7 @@ tools_data = {
             "pricing": "Freemium"
         },
     ],
-    "Video Creation & Editing AI": [
+    "🎬Video Creation & Editing AI": [
         {
             "name": "Pictory",
             "description": "Turn scripts or blog posts into engaging videos automatically",
@@ -340,7 +340,7 @@ tools_data = {
             "pricing": "Freemium"
         },
     ],
-    "Productivity / Personal Assistants": [
+    "⚡Productivity / Personal Assistants": [
         {
             "name": "Notion AI",
             "description": "Powerful AI embedded in Notion for writing, organizing, planning",
@@ -402,7 +402,7 @@ tools_data = {
             "pricing": "Freemium"
         },
     ],
-    "Developer & Coding Tools": [
+    "💻Developer & Coding Tools": [
         {
             "name": "GitHub Copilot",
             "description": "AI pair programmer for VS Code, JetBrains, Neovim",
@@ -452,7 +452,7 @@ tools_data = {
             "pricing": "Free"
         },
     ], 
-    "Multimodal AI": [
+    "🧠Multimodal AI": [
         {
             "name": "ChatGPT-4o",
             "description": "OpenAI’s flagship multimodal model supporting text, image, audio",
@@ -496,7 +496,7 @@ tools_data = {
             "pricing": "Free"
         },
     ], 
-    "Utility & Conversion Tools": [
+    "🔄Utility & Conversion Tools": [
         {
             "name": "PDFgear",
             "description": "All-in-one PDF editing, converting, compressing, and eSigning",
@@ -546,7 +546,7 @@ tools_data = {
             "pricing": "Free"
         },
     ],
-    "Web, SEO & Analytics AI": [
+    "📊Web, SEO & Analytics AI": [
         {
             "name": "NeuronWriter",
             "description": "AI-based SEO tool that helps optimize content using NLP and SERP analysis",
@@ -584,7 +584,7 @@ tools_data = {
             "pricing": "Freemium"
         },
     ],
-    "AI Agents & Automation Bots": [
+    "⚙️AI Agents & Automation Bots": [
         {
             "name": "AgentGPT",
             "description": "Auto-agent platform that allows users to configure and run goal-based AI agents",
@@ -622,7 +622,7 @@ tools_data = {
             "pricing": "Freemium"
         },
     ],
-    "Learning & Education AI": [
+    "📚Learning & Education AI": [
         {
             "name": "Khanmigo by Khan Academy",
             "description": "GPT-powered tutor integrated into Khan Academy content",
@@ -672,7 +672,7 @@ tools_data = {
             "pricing": "Free"
         },
     ],
-    "Marketing & Branding": [
+    "📢Marketing & Branding": [
         {
             "name": "Ocoya",
             "description": "All-in-one AI social media scheduler + writer + designer",
@@ -722,7 +722,7 @@ tools_data = {
             "pricing": "Paid"
         },
     ],
-    "Fashion & Shopping AI": [
+    "🛍️Fashion & Shopping AI": [
         {
             "name": "Fashwell",
             "description": "AI visual search for fashion – detects clothes from images",
@@ -754,7 +754,7 @@ tools_data = {
             "pricing": "Free"
         },
     ],
-    "Career & Resume AI": [
+    "🧑‍💼Career & Resume AI": [
         {
             "name": "Kickresume",
             "description": "AI-powered resume builder with templates and career tips",
