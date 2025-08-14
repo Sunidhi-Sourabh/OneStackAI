@@ -1,4 +1,7 @@
 # 📦 Imports — Sorted & Cleaned
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_migrate import Migrate
@@ -11,10 +14,10 @@ from tools import tools_data
 # ⚙️ App Configuration
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
+
 # Detect DATABASE_URL from environment, else fallback to SQLite
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://onestackai_db_user:aKPX3V6qW2Rt73pKY87aHhGkLIPHcyBT@dpg-d2epoa3ipnbc73a9hk50-a.oregon-postgres.render.com/onestackai_db'
-else:
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+db_uri = os.getenv('DATABASE_URL', 'sqlite:///data.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
