@@ -11,3 +11,7 @@ env/
 .replit
 *.sqlite
 *.db
+
+*.jks
+local.properties
+gradle.properties
