@@ -1,0 +1,34 @@
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.onestackai.app"
+        minSdkVersion 23        // ✅ Android 6.0+ (safe for Android 14)
+        targetSdkVersion 34     // ✅ Latest supported
+        versionCode 2
+        versionName "1.1"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            debuggable false
+
+            // ✅ Safe signing block (only if using local keystore)
+            // signingConfig signingConfigs.release
+        }
+    }
+
+    // ✅ Optional: Enable both v1 and v2 signing
+    signingConfigs {
+        release {
+            storeFile file("your_keystore.jks")
+            storePassword "your_store_password"
+            keyAlias "your_key_alias"
+            keyPassword "your_key_password"
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+}
