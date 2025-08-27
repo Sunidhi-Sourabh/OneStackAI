@@ -51,3 +51,11 @@ Join the conversation via [Discord](https://discord.gg/KBstZbht) or [Telegram](h
 Submit feedback, suggest tools, or contribute
 
 ---
+
+---
+
+© 2025 Sunidhi Sourabh. All rights reserved.
+This repository and its contents are protected under applicable copyright laws.  
+Unauthorized use, redistribution, or modification without explicit permission is prohibited.  
+
+---
