@@ -35,7 +35,8 @@ It recommends tools based on category, pricing, and feature filters using GPT-OS
 - **OAuth2:** Discord + Google Suite integration
 
 ### Agent
-- **Model:** TinyLlama/TinyLlama-1.1B-Chat-v1.0  
+- **Initial Model:** TinyLlama/TinyLlama-1.1B-Chat-v1.0  
+-**Advanced Model:** GPT-OSS-20B via Groq API (128K context, 1000+ tokens/sec)
 - **Libraries:** `transformers`, `torch`, `tqdm`, `requests`  
 - **Execution:** Local run via `OneStackAI_Agent_GPT_OSS.py`  
 - **Filtering:** Category, pricing, keyword, and feature toggles  
@@ -72,7 +73,8 @@ OneStackAI_OpenAI_Hackathon/ ├── OneStackAI_Agent_GPT_OSS.py ├── too
 
 ## 🧠 Agent Highlights (Hackathon-Specific)
 
-- Built fresh for OpenAI Model Hackathon  
+- Built fresh for OpenAI Model Hackathon
+- Supports Groq-powered inference for blazing-fast responses
 - Modular, cinematic, and privacy-first  
 - Tool recommendations based on real-time filters  
 - HuggingChat tagged as a known OSS suggestion platform  
@@ -91,6 +93,7 @@ Submit feedback, suggest tools, or contribute.
 
 Submitted to: **OpenAI Open Model Hackathon**  
 Track: **Local Agent**  
+Groq API integration was added during the final sprint to benchmark performance and showcase scalable, judge-grade inference.
 Date: **Sept 1, 2025**  
 Author: **Sunidhi Sourabh**  
 
