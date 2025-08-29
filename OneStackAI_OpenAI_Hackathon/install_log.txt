@@ -1,0 +1,84 @@
+# OpenAI Hackathon Setup Log
+# Date: August 28–29, 2025
+# Author: Sunidhi Sourabh
+
+## ✅ Python Environment
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+
+## ✅ Installed Libraries
+
+> pip install transformers
+Successfully installed:
+- huggingface-hub
+- transformers
+- tqdm
+- regex
+- filelock
+- requests
+
+> pip install torch
+Successfully installed:
+- torch
+- typing-extensions
+
+## ⚠️ Model Download Logs
+
+Model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+
+Downloaded:
+- tokenizer_config.json
+- tokenizer.model
+- tokenizer.json
+- special_tokens_map.json
+- config.json
+- model.safetensors (2.20GB)
+- generation_config.json
+
+Warnings:
+- Symlinks not supported on this system. Caching will use fallback.
+- Xet Storage enabled but 'hf_xet' not installed. Fallback to HTTP download.
+
+## ✅ Agent Execution
+
+Command:
+> python agent.py
+
+Output:
+🧠 GPT-OSS Response:
+Suggest three privacy-first tools for indie developers.
+
+## ❌ Errors Encountered (Earlier Attempts)
+
+- `ModuleNotFoundError: No module named 'transformers'`
+- `SyntaxError: unexpected character after line continuation character`
+- `401 Client Error: Unauthorized for url: https://huggingface.co/openai-community/gpt-oss-20b/...`
+- `GatedRepoError: Access to model mistralai/Mistral-7B-Instruct-v0.2 is restricted`
+
+## ✅ Final Fixes Applied
+
+- Switched to public model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+- Added prompt engineering to avoid echo
+- Connected `tools.py` for curated suggestions
+
+## 🧩 Tool Integration
+
+- `tools.py`: Static list of curated tools with name, caption, and pricing
+- Future upgrade planned:
+  - `tools.json`: Structured data loading
+  - `tools.db`: SQLite query-based agent
+  - API calls: Dynamic tool suggestions based on prompt context
+
+## 🎥 Demo Run Summary
+
+Final Agent Run:
+- Prompt: “Suggest three privacy-first tools for indie developers”
+- Output: See `output.txt`
+- Mode: CPU
+- Response: Generated successfully with curated tool context
+
+## 🧠 Submission Context
+
+Submitted to: OpenAI Open Model Hackathon  
+Track: Local Agent  
+Date: Sept 10, 2025  
+Project Folder: OneStackAI_OpenAIHackathon_Remoulded  
