@@ -1,0 +1,9 @@
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\admin>cd "C:\Users\admin\OneDrive\Desktop\2026SOS\OneStackAI 1.1\OneStackAI_OpenAI_Hackathon"
+
+C:\Users\admin\OneDrive\Desktop\2026SOS\OneStackAI 1.1\OneStackAI_OpenAI_Hackathon>python OneStackAI_Agent_GPT_OSS.py >output.txt
+Device set to use cpu
+
+C:\Users\admin\OneDrive\Desktop\2026SOS\OneStackAI 1.1\OneStackAI_OpenAI_Hackathon>
