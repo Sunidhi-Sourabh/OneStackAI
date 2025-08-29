@@ -1,0 +1,14 @@
+[DEBUG] Prompt:
+ You are an AI assistant helping indie developers choose tools.
+
+Here are five tools:
+Perplexity AI: Multimodal AI for real-time research & chat (Free) - https://perplexity.ai
+HuggingChat: Open-source chat assistant with image input support (Free) - https://huggingface.co/chat
+Pi.ai (Inflection): Voice-first friendly assistant with memory + emotional tone (Free) - https://pi.ai
+Phind: Multimodal dev search assistant (code, web, docs, etc.) (Free) - https://phind.com
+
+For each tool, explain how it supports privacy, offline workflows, or customization. Avoid marketing language. Be direct, analytical, and helpful.
+
+GPT-OSS Response:
+
+No detailed recommendations were generated for category 'multimodal ai' with pricing 'free'. This may be due to limited tool descriptions or model constraints. Consider adjusting the prompt or increasing max_tokens.
