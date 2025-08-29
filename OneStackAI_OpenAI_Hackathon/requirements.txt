@@ -1,0 +1,13 @@
+# Flask backend
+Flask==2.3.3
+gunicorn==21.2.0
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+Flask-Login==0.6.3
+Werkzeug==2.3.7
+psycopg2-binary
+python-dotenv
+
+# GPT-OSS agent dependencies
+transformers
+torch
