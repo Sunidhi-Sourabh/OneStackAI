@@ -1,0 +1,34 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.env/
+venv/
+env/
+
+# Ignore Replit-specific files
+.replit
+
+# Ignore local databases
+*.sqlite
+*.db
+
+# Ignore Android build artifacts
+*.jks
+local.properties
+gradle.properties
+
+# Ignore model artifacts and large downloads
+*.safetensors
+*.pt
+*.bin
+
+# Ignore logs and outputs
+output.txt
+install_log.txt
+model_log.txt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
