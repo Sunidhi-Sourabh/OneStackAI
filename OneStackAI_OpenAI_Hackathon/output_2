@@ -1,0 +1,13 @@
+[DEBUG] Prompt:
+ You are an AI assistant helping indie developers choose tools.
+
+Here are three tools:
+Explainpaper: Drop in a paper, get AI explanation of difficult sections (Free) - https://explainpaper.com
+Ello: AI-powered reading coach for kids with real-time feedback (Free) - https://ello.com
+Khanmigo by Khan Academy: GPT-powered tutor integrated into Khan Academy content (Free) - https://khanacademy.org
+
+For each tool, explain how it supports privacy, offline workflows, or customization. Avoid marketing language. Be direct, analytical, and helpful.
+
+GPT-OSS Response:
+
+GPT-OSS did not generate a response for category 'learning & education ai' with pricing 'free'. Try simplifying the prompt or increasing max_length.
