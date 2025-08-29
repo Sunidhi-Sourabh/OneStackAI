@@ -1,5 +1,5 @@
 # OpenAI Hackathon Setup Log
-# Date: August 28–29, 2025
+# Date: August 27, 2025
 # Author: Sunidhi Sourabh
 
 ## ✅ Python Environment
@@ -45,7 +45,7 @@ Command:
 
 Output:
 🧠 GPT-OSS Response:
-Suggest three privacy-first tools for indie developers.
+Suggest five privacy-first tools for indie developers.
 
 ## ❌ Errors Encountered (Earlier Attempts)
 
@@ -71,7 +71,7 @@ Suggest three privacy-first tools for indie developers.
 ## 🎥 Demo Run Summary
 
 Final Agent Run:
-- Prompt: “Suggest three privacy-first tools for indie developers”
+- Prompt: “Suggest five privacy-first tools for indie developers”
 - Output: See `output.txt`
 - Mode: CPU
 - Response: Generated successfully with curated tool context
@@ -80,5 +80,5 @@ Final Agent Run:
 
 Submitted to: OpenAI Open Model Hackathon  
 Track: Local Agent  
-Date: Sept 10, 2025  
-Project Folder: OneStackAI_OpenAIHackathon_Remoulded  
+Date: Aug 30, 2025  
+Project Folder: OneStackAI_OpenAIHackathon 
