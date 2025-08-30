@@ -33,14 +33,17 @@ It recommends tools based on category, pricing, and feature filters using GPT-OS
 - **Backend:** Flask (Replit + Render)  
 - **CI/CD:** Manual APK signing + GitHub Actions  
 - **OAuth2:** Discord + Google Suite integration
+- **Visual Design**: Canva
+
 
 ### Agent
 - **Initial Model:** TinyLlama/TinyLlama-1.1B-Chat-v1.0  
 -**Advanced Model:** GPT-OSS-20B via Groq API (128K context, 1000+ tokens/sec)
 - **Libraries:** `transformers`, `torch`, `tqdm`, `requests`  
-- **Execution:** Local run via `OneStackAI_Agent_GPT_OSS.py`  
+- **Execution:** Local run via `OneStackAI_Agent_GPT_OSS.py`+ remote inference via Groq API  
 - **Filtering:** Category, pricing, keyword, and feature toggles  
 - **Fallback Logic:** Unicode-safe prompt handling + discoverability tagging
+- **Visual Design**: Canva used for demo slide sequencing and cinematic storytelling
 
 ---
 
