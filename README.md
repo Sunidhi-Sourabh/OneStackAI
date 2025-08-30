@@ -17,6 +17,7 @@ OneStackAI empowers users to launch, explore, and flow—without friction or com
 - **Backend:** Flask (Replit + Render)  
 - **CI/CD:** Manual APK signing + GitHub Actions  
 - **OAuth2:** Discord + Google Suite integration (secure redirect flows)
+- **Visual Design**: Canva
 
 ---
 
